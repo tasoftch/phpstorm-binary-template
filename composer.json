@@ -1,0 +1,24 @@
+{
+  "name": "tasoft/phpstorm-binary-template",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Thomas Abplanalp",
+      "email": "info@tasoft.ch"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "TASoft\\Binary\\" : "src"
+    }
+  },
+  "require" : {
+    "php": ">=7.2"
+  },
+  "require-dev": {
+    "symfony/console": "^5.1"
+  },
+  "scripts": {
+    "build": "php -dphar.readonly=0 build.php"
+  }
+}
