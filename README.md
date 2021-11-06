@@ -1,2 +1,3 @@
-# php-dependency-injection
-PHP Dependency Injection library in collaboration with service manager
+# PHPStorm Binary Template
+
+Package with preinstalled vendor packages and scripts to create php based binaries.

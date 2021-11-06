@@ -6,5 +6,6 @@ $_LOADER = require __DIR__ . "/vendor/autoload.php";
 $app = new Application("TASoft", "1.0.0");
 
 // Add commands to the app
+$app->add(new \TASoft\Binary\Command\MyCommand());
 
 $app->run();

@@ -34,7 +34,7 @@
 
 require "vendor/autoload.php";
 
-$BINARY_NAME = 'binary';
+$BINARY_NAME = basename( json_decode( file_get_contents(__DIR__ . "/composer.json"), true )['name'] );
 $INCLUDE_SHEBANG = 1;
 
 $UPLOAD = 0;
